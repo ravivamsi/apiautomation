@@ -14,7 +14,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 /**
- * @author Divya
+ * @author Vamsi Ravi
  *
  */
 public class ValidateContentType {
@@ -42,7 +42,7 @@ public class ValidateContentType {
 	}
 	
 	@Test
-	public void canValidateResponseContentTypeWithHamcrestMatcher(){
+	public void expectResponseContentTypeWithHamcrestMatcher(){
 		RestAssured.given().expect().contentType(is("application/json;charset=utf-8")).when().get();
 		
 	}

@@ -4,7 +4,7 @@
 package com.api.automation.zeus.utils;
 
 /**
- * @author Divya
+ * @author Vamsi Ravi
  *
  */
 public class SchemaValidator {

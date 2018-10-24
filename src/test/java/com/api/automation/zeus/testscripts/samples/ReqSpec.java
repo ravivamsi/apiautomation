@@ -4,9 +4,9 @@
 package com.api.automation.zeus.testscripts.samples;
 
 /**
- * @author Vamsi Ravi
+ * @author Divya
  *
  */
-public class ValidateResponse {
+public class ReqSpec {
 
 }
